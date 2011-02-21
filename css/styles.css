@@ -1,0 +1,196 @@
+body {
+	/*background: url('../img/map.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+	background: #D0D0D0 url(../img/tile.png) repeat;
+	color: black;
+	font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
+	font-size: 1em;
+	height: 100%;
+	line-height: 1.5;
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+}
+
+/*Header
+===================*/
+.corners {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+h1.head {
+	font-size: 2em;
+	color: #333;
+}
+
+li.nav { 
+	display: inline;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color:#BE3E11;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#C83900;
+	text-decoration: underline;
+}
+
+img.logo {
+	float:left;
+	padding: 20px;
+}
+
+img.monthly {
+	margin: 0px 10px 0px 0px;
+	border: 1px solid #333;
+}
+
+.articles {
+		margin: 0px 10px 0px 10px;
+		border: 1px solid #333;
+}
+
+#navback {
+	background-color: #FFF;
+	margin: 0px;
+	text-align: center;
+	height: 40px;
+}
+
+#nav a {
+	background-color: #726936;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	float: left;
+	padding: 5px 15px;
+}
+
+#nav a:hover {
+	background-color: #D3B652;
+	color: white;
+	text-decoration: none;
+}
+
+#nav a.selected {
+	background-color: #FFF;
+	color: #333;
+}
+
+#picback {
+	background-image: url('../img/control_back.jpg');
+	height: 330px;
+	padding: 0px;
+	margin: 0px;
+	border: 10px solid #FFF;
+	background-repeat: repeat;
+}
+
+#tweet {
+		padding: 4px 8px 0px 0px;
+}
+
+/*Main content
+===================*/
+#mainback {
+	background-color: #fff;
+}
+
+#content {
+	clear: both;
+}
+
+/*div styles for backgrounds and text*/
+
+div.copy {
+	padding: 20px;
+}
+
+div.main {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+div.side {
+	margin: 0;
+	padding: 0;
+	background-color: #D0D0D0;
+	border-style: solid;
+	border-width: 0 1px 0 1px;
+	border-color: #333;
+}
+
+li.schedule { 
+	list-style-image: url('../img/bullet.png');
+	line-height: 2em;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 5px 15px #000000;
+	-moz-box-shadow: 0px 5px 15px #000000;
+	box-shadow: 0px 5px 15px #000000;
+}
+
+.scheduleTitle {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #EC4D15;
+}
+
+.scheduleDate{
+	font-size: .75em;
+	font-weight: bold;
+	color: #333;
+}
+
+.scheduleDetails {
+	padding: 10px;
+	margin: 10px;
+	background-color: #DDD;
+	border-bottom: 3px solid #FFF;
+}
+
+/*Cloudmade Map Styles
+===================*/
+#cm-map {
+	height: 300px;
+	padding: 0px;
+	margin: 10px;
+	border: 1px solid #999;
+	background-color: #DDD;
+}
+
+#cm-inset {
+	margin: 0px;
+	border: 1px solid #999;
+	background-color: #DDD;
+	width: 100%;
+}
+
+
+/*Footer
+===================*/
+#footer {
+	background-color: #D0D0D0;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: right;
+	border-top: 1px solid #999;
+}
