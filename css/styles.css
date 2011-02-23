@@ -142,6 +142,10 @@ li.schedule {
 	line-height: 2em;
 }
 
+ul.links {
+	margin: 0 0 0 20px;
+}
+
 .shadow {
 	-webkit-box-shadow: 0px 5px 15px #000000;
 	-moz-box-shadow: 0px 5px 15px #000000;
@@ -165,6 +169,13 @@ li.schedule {
 	margin: 10px;
 	background-color: #DDD;
 	border-bottom: 3px solid #FFF;
+}
+
+.scheduleAdmin {
+	padding: 20px;
+	margin: 0px;
+	background-color: #EBEBEB;
+	border-bottom: 1px dashed #333;
 }
 
 /*Cloudmade Map Styles

@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Folder id="Fusiontables">
+<name>Fusiontables folder</name>
+<Style id="BasicStyle">
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+<IconStyle>
+<color>FFFFFFFF</color>
+<scale>1.1</scale>
+<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/><Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-blank_maps.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Critical Voices Lecture Series: Dan Cameron</h4>
+<hr>
+Portland Art Museum<br>
+1219 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.683103,45.516316,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Critical Voices Lecture Series: Dan Cameron</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.516316, -122.683103</value>
+</Data>
+<Data name="Venue">
+<value>Portland Art Museum</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Critical Voices Lecture Series: Hal Foster</h4>
+<hr>
+Portland Art Museum<br>
+1219 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.683103,45.516316,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Critical Voices Lecture Series: Hal Foster</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.516316, -122.683103</value>
+</Data>
+<Data name="Venue">
+<value>Portland Art Museum</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Critical Voices Lecture Series: Michael Kimmelman</h4>
+<hr>
+Portland Art Museum<br>
+1219 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.683103,45.516316,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Critical Voices Lecture Series: Michael Kimmelman</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.516316, -122.683103</value>
+</Data>
+<Data name="Venue">
+<value>Portland Art Museum</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Critical Voices Lecture SeriesRosalind Krauss</h4>
+<hr>
+Portland Art Museum<br>
+1219 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.683103,45.516316,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Critical Voices Lecture SeriesRosalind Krauss</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.516316, -122.683103</value>
+</Data>
+<Data name="Venue">
+<value>Portland Art Museum</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lani Roberts]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Ethics 101</h4>
+<hr>
+OASIS<br>
+1875 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.686176,45.5115679,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Lani Roberts</value>
+</Data>
+<Data name="Program Name">
+<value>Ethics 101</value>
+</Data>
+<Data name="Type">
+<value>Class</value>
+</Data>
+<Data name="latlng">
+<value>45.5115679, -122.686176</value>
+</Data>
+<Data name="Venue">
+<value>OASIS</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Everybody Learns 2006-2007: Expressive Desire in Chinese Films</h4>
+<hr>
+Portland State University<br>
+1875 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.686176,45.5115679,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Everybody Learns 2006-2007: Expressive Desire in Chinese Films</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5115679, -122.686176</value>
+</Data>
+<Data name="Venue">
+<value>Portland State University</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Everybody Learns 2006-2007: Gateway to Gold Mountain Exhibition</h4>
+<hr>
+Portland State University<br>
+1875 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.686176,45.5115679,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Everybody Learns 2006-2007: Gateway to Gold Mountain Exhibition</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5115679, -122.686176</value>
+</Data>
+<Data name="Venue">
+<value>Portland State University</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Everybody Learns 2006-2007: Reading North and South, East and West: Asian Literature in Canada and the U.S.</h4>
+<hr>
+Portland State University<br>
+1875 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.686176,45.5115679,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Everybody Learns 2006-2007: Reading North and South, East and West: Asian Literature in Canada and the U.S.</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5115679, -122.686176</value>
+</Data>
+<Data name="Venue">
+<value>Portland State University</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Everybody Learns 2006-2007: The "Yellow Peril" and the Pacific Coast Race Riots of 1907</h4>
+<hr>
+Portland State University<br>
+1875 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.686176,45.5115679,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Everybody Learns 2006-2007: The "Yellow Peril" and the Pacific Coast Race Riots of 1907</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5115679, -122.686176</value>
+</Data>
+<Data name="Venue">
+<value>Portland State University</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Diana Coogle]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Food for Thought</h4>
+<hr>
+Multnomah County Library<br>
+7905 SE Holgate Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.582171,45.49067,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Diana Coogle</value>
+</Data>
+<Data name="Program Name">
+<value>Food for Thought</value>
+</Data>
+<Data name="Type">
+<value>Discussion</value>
+</Data>
+<Data name="latlng">
+<value>45.49067, -122.582171</value>
+</Data>
+<Data name="Venue">
+<value>Multnomah County Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Diana Coogle]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Food for Thought</h4>
+<hr>
+Multnomah County Library<br>
+805 SE 122nd Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.538561,45.5166929,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Diana Coogle</value>
+</Data>
+<Data name="Program Name">
+<value>Food for Thought</value>
+</Data>
+<Data name="Type">
+<value>Discussion</value>
+</Data>
+<Data name="latlng">
+<value>45.5166929, -122.538561</value>
+</Data>
+<Data name="Venue">
+<value>Multnomah County Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Getting Live Wire! More Oregon-ized</h4>
+<hr>
+Aladdin Theatre<br>
+3017 SE Milwaukie Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.654253,45.501102,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Getting Live Wire! More Oregon-ized</value>
+</Data>
+<Data name="Type">
+<value>Discussion</value>
+</Data>
+<Data name="latlng">
+<value>45.501102, -122.654253</value>
+</Data>
+<Data name="Venue">
+<value>Aladdin Theatre</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Getting Live Wire! More Oregon-ized: Festivals</h4>
+<hr>
+Aladdin Theatre<br>
+3017 SE Milwaukie Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.654253,45.501102,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Getting Live Wire! More Oregon-ized: Festivals</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.501102, -122.654253</value>
+</Data>
+<Data name="Venue">
+<value>Aladdin Theatre</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Getting Live Wire! More Oregon-ized: Rodeos</h4>
+<hr>
+Aladdin Theatre<br>
+3017 SE Milwaukie Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.654253,45.501102,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Getting Live Wire! More Oregon-ized: Rodeos</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.501102, -122.654253</value>
+</Data>
+<Data name="Venue">
+<value>Aladdin Theatre</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Getting Live Wire! More Oregon-ized: Vaudeville in Astoria</h4>
+<hr>
+Aladdin Theatre<br>
+3017 SE Milwaukie Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.654253,45.501102,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>Getting Live Wire! More Oregon-ized: Vaudeville in Astoria</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.501102, -122.654253</value>
+</Data>
+<Data name="Venue">
+<value>Aladdin Theatre</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keith Scales]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Labyrinth and Thread</h4>
+<hr>
+First Unitarian Church<br>
+1011 SW 12th Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.685708,45.518013,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Keith Scales</value>
+</Data>
+<Data name="Program Name">
+<value>Labyrinth and Thread</value>
+</Data>
+<Data name="Type">
+<value>Reading</value>
+</Data>
+<Data name="latlng">
+<value>45.518013, -122.685708</value>
+</Data>
+<Data name="Venue">
+<value>First Unitarian Church</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mark Eifler]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Lewis and Clark and the International Competition for Oregon</h4>
+<hr>
+Retired Associates of PSU<br>
+1875 SW Park Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.686176,45.5115679,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Mark Eifler</value>
+</Data>
+<Data name="Program Name">
+<value>Lewis and Clark and the International Competition for Oregon</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5115679, -122.686176</value>
+</Data>
+<Data name="Venue">
+<value>Retired Associates of PSU</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mark Eifler]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Lewis and Clark and the International Competition for Oregon</h4>
+<hr>
+Cedar Mill Community Library<br>
+12505 NW Cornell Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.805712,45.527216,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Mark Eifler</value>
+</Data>
+<Data name="Program Name">
+<value>Lewis and Clark and the International Competition for Oregon</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.527216, -122.805712</value>
+</Data>
+<Data name="Venue">
+<value>Cedar Mill Community Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Robert Hamm]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Mapping the West: Eighteenth- and Nineteenth-Century Cartography</h4>
+<hr>
+Cedar Mill Community Library<br>
+12505 NW Cornell Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.805712,45.527216,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Robert Hamm</value>
+</Data>
+<Data name="Program Name">
+<value>Mapping the West: Eighteenth- and Nineteenth-Century Cartography</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.527216, -122.805712</value>
+</Data>
+<Data name="Venue">
+<value>Cedar Mill Community Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Robert Hamm]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Mapping the West: Eighteenth- and Nineteenth-Century Cartography</h4>
+<hr>
+Cedar Mill Community Library<br>
+12505 NW Cornell Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.805712,45.527216,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Robert Hamm</value>
+</Data>
+<Data name="Program Name">
+<value>Mapping the West: Eighteenth- and Nineteenth-Century Cartography</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.527216, -122.805712</value>
+</Data>
+<Data name="Venue">
+<value>Cedar Mill Community Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Joel Preston Smith]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Night of a Thousand Stars and Other Portraits of Iraq</h4>
+<hr>
+Rose Villa<br>
+13505 SE River Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.645794,45.425609,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Joel Preston Smith</value>
+</Data>
+<Data name="Program Name">
+<value>Night of a Thousand Stars and Other Portraits of Iraq</value>
+</Data>
+<Data name="Type">
+<value>Artist Opening</value>
+</Data>
+<Data name="latlng">
+<value>45.425609, -122.645794</value>
+</Data>
+<Data name="Venue">
+<value>Rose Villa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>On the Wings of a Thousand Cranes</h4>
+<hr>
+Film Action Oregon<br>
+4122 NE Sandy Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.6206777,45.5358159,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>On the Wings of a Thousand Cranes</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5358159, -122.6206777</value>
+</Data>
+<Data name="Venue">
+<value>Film Action Oregon</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ann Nicgorski]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Picturing Christ's Passion: From the Catacombs to Mel Gibson</h4>
+<hr>
+First Baptist Church<br>
+909 SW 11th Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.684469,45.51888,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Ann Nicgorski</value>
+</Data>
+<Data name="Program Name">
+<value>Picturing Christ's Passion: From the Catacombs to Mel Gibson</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.51888, -122.684469</value>
+</Data>
+<Data name="Venue">
+<value>First Baptist Church</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[William Robbins]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Place and History: In Search of the Pacific Northwest</h4>
+<hr>
+Rose Villa<br>
+13505 SE River Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.645794,45.425609,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>William Robbins</value>
+</Data>
+<Data name="Program Name">
+<value>Place and History: In Search of the Pacific Northwest</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.425609, -122.645794</value>
+</Data>
+<Data name="Venue">
+<value>Rose Villa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Barbara Bernstein]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Rivers That Were</h4>
+<hr>
+Washington County Historical Society<br>
+17677 NW Springville Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.857887,45.566422,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Barbara Bernstein</value>
+</Data>
+<Data name="Program Name">
+<value>Rivers That Were</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.566422, -122.857887</value>
+</Data>
+<Data name="Venue">
+<value>Washington County Historical Society</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Erlinda Gonzales-Berry]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Sojourners, Settlers, and New Immigrants: Mexicanos in Oregon</h4>
+<hr>
+Multnomah County Library<br>
+7921 NE Sandy Blvd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.581264,45.551662,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Erlinda Gonzales-Berry</value>
+</Data>
+<Data name="Program Name">
+<value>Sojourners, Settlers, and New Immigrants: Mexicanos in Oregon</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.551662, -122.581264</value>
+</Data>
+<Data name="Venue">
+<value>Multnomah County Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Erlinda Gonzales-Berry]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Sojourners, Settlers, and New Immigrants: Mexicanos in Oregon</h4>
+<hr>
+Multnomah County Library<br>
+805 SE 122nd Ave, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.538561,45.5166929,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Erlinda Gonzales-Berry</value>
+</Data>
+<Data name="Program Name">
+<value>Sojourners, Settlers, and New Immigrants: Mexicanos in Oregon</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5166929, -122.538561</value>
+</Data>
+<Data name="Venue">
+<value>Multnomah County Library</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Erlinda Gonzales-Berry]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>Sojourners, Settlers, and New Immigrants: Mexicanos in Oregon</h4>
+<hr>
+Washington County Historical Society<br>
+17677 NW Springville Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.857887,45.566422,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Erlinda Gonzales-Berry</value>
+</Data>
+<Data name="Program Name">
+<value>Sojourners, Settlers, and New Immigrants: Mexicanos in Oregon</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.566422, -122.857887</value>
+</Data>
+<Data name="Venue">
+<value>Washington County Historical Society</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>The 17th Cascade Festival of African Films - "That's My FaceÓ Program with T.A. Harris</h4>
+<hr>
+Portland Community College Foundation<br>
+705 N. Killingsworth St, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.673769,45.562922,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>The 17th Cascade Festival of African Films - "That's My FaceÓ Program with T.A. Harris</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.562922, -122.673769</value>
+</Data>
+<Data name="Venue">
+<value>Portland Community College Foundation</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[n/a]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>The 17th Cascade Festival of African Films - "The Twelve Disciples of Nelson MandelaÓ Program with T.A. Harris</h4>
+<hr>
+Portland Community College Foundation<br>
+705 N. Killingsworth St, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.673769,45.562922,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>n/a</value>
+</Data>
+<Data name="Program Name">
+<value>The 17th Cascade Festival of African Films - "The Twelve Disciples of Nelson MandelaÓ Program with T.A. Harris</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.562922, -122.673769</value>
+</Data>
+<Data name="Venue">
+<value>Portland Community College Foundation</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lani Roberts]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>The Idea of Justice</h4>
+<hr>
+First United Methodist Church<br>
+1838 SW Jefferson St, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.6931683,45.5175899,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Lani Roberts</value>
+</Data>
+<Data name="Program Name">
+<value>The Idea of Justice</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.5175899, -122.6931683</value>
+</Data>
+<Data name="Venue">
+<value>First United Methodist Church</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Richard Etulain]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<h4>The Magic West on Film</h4>
+<hr>
+Washington County Historical Society<br>
+17677 NW Springville Rd, Portland OR
+]]>
+</description>
+<Point>
+<coordinates>
+-122.857887,45.566422,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Facilitator">
+<value>Richard Etulain</value>
+</Data>
+<Data name="Program Name">
+<value>The Magic West on Film</value>
+</Data>
+<Data name="Type">
+<value>Lecture</value>
+</Data>
+<Data name="latlng">
+<value>45.566422, -122.857887</value>
+</Data>
+<Data name="Venue">
+<value>Washington County Historical Society</value>
+</Data>
+</ExtendedData>
+</Placemark>
+</Folder>
+</Document>
+</kml>

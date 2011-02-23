@@ -1,0 +1,15 @@
+# Can ignore specific files
+.DS_Store
+
+# Use wildcards as well
+*~
+*.swp
+*test.*
+
+# Can also ignore all directories and files in a directory.
+tmp/**/* 
+
+config.php
+functions.php
+css/test.css
+
