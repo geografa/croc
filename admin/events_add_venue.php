@@ -12,32 +12,32 @@ $connection = mysql_connect($host, $user, $pass) or die ("Unable to connect!");
 mysql_select_db($db) or die ("Unable to select database!");
 
 if (empty($submit)) { ?>
-	<form action="<? echo $PHP_SELF; ?>" method="POST">
-		<div class="grid_11">
-		<!-- TODO insert map locator here -->
+	<form action="<? echo $PHP_SELF; ?>" method="POST" name="VenueForm" >
+		<div class="grid_11">	
 			<div class="scheduleAdmin">
-				<h4>Venue Name</h4>
-				<input type="text" size="50" name="venue_name">	
-			</div>			
-			<div class="scheduleAdmin">
-				<h4>Address</h4>
-				<input type="text" size="60" name="address">
-			</div>
-			<div> 
-		    <input id="address" type="textbox" value="Portland, OR"> 
-		    <input type="button" value="Geocode" onclick="codeAddress()"> 
-		  </div> 
-			<div id="map_canvas" style="height:100"></div>
-		
-			<input type="Submit" name="submit" value="Add">
-		</div>
-		
-		
-		
-		
-		
-	</form>
+				<div>
+					<h4>Search Venue</h4>				  
+						<a href="#" onMouseOver="updateLocation()">
+							<div id="map_canvas" style="width:100%; height:400px"></div> 	
+						</a>
+						
+				    <input type="text" size="50" id="address" />
+						<input type="button" value="Search" onclick="geocode()" />
 
+						<div id="latlng"></div>
+						<div id="crosshair"></div>
+						<div id="formatedAddress"></div>
+						
+						<input type="hidden" name="latlong" />
+						
+						<h4>*Please provide a short name for the venue: <input type="text" size="50" name="venue_name"></h4>
+					</div>
+				<input type="Submit" value="Add Location" name="submit" /> 	
+			</div>
+			<div>
+					<!-- <input type="Submit" name="submit" value="Add"> -->
+			</div>
+	</form>
 <?php
 //--The results are set here--
 	}
@@ -49,11 +49,12 @@ if (empty($submit)) { ?>
 		// validate text input fields
 		// fetch values set when Add button is hit
 		$venue_name = $_POST[venue_name];
+		$formatedAddress = $_POST[formatedAddress];
 		$latlong = $_POST[latlong];
-
 		
-		if (!$venue_name) { $errorList[$count] = "Invalid entry: venue name"; $count++; }
-		if (!$latlong) { $errorList[$count] = "Invalid entry: Lat Long"; $count++; }
+		if (!$venue_name) { $errorList[$count] = "Invalid Entry: You need to supply a short name."; $count++; }
+		if (!$formatedAddress) { $errorList[$count] = "Invalid entry: Address"; $count++; }
+		if (!$latlong) { $errorList[$count] = "Invalid entry: LatLong"; $count++; }
 		// check for errors
 		// if none found...
 		if (sizeof($errorList) == 0)
@@ -61,8 +62,8 @@ if (empty($submit)) { ?>
 			
 		// generate and execute query
 		$query = "INSERT INTO venues
-		 					(venue_id, venue_name, latlong )
-							VALUES ( '$venue_id', '$venue_name', '$latlong' )";
+		 					(venue_id, venue_name, address, latlong)
+							VALUES ( '$venue_id', '$venue_name', '$formatedAddress', '$latlong' )";
 						
 		$result = mysql_query($query) or die ("Error in query: $query. " . mysql_error());
 		
@@ -77,7 +78,7 @@ if (empty($submit)) { ?>
 			// errors found
 			// print as list
 			echo "The following errors were encountered: <br>";
-			echo "<ul>";
+			echo "<ul class=\"links\">";
 			for ($x=0; $x<sizeof($errorList); $x++)
 			{
 				echo "<li>$errorList[$x]";

@@ -1,0 +1,9 @@
+CROC Changelog
+=============================
+
+Version 2.02
+- Added admin area for adding venues.
+
+Version 2.01
+--------------
+- Initial Version

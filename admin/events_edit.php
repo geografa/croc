@@ -63,7 +63,7 @@ if (empty($submit)) {
 				}
 				?>
 		</select>
-		<p>Don't see your venue in the list? Add it <a href="add_venue.php">here.</a></p>
+		<p>Don't see your venue in the list? Add it <a href="events_add_venue.php">here.</a></p>
 	</div>
 
 	<div class="scheduleAdmin">

@@ -13,5 +13,5 @@
 	<div class="container_12">
 		<div class="grid_12 corners shadow scheduleDetails">		
 		<h1>CROC Admin Pages</h1>
-		<a href="../index.php">Return to site</a> | <a href="events_list.php">View Full List</a> | <a href="events_add.php">Add New Event</a> <hr />
+		<a href="../index.php">Return to site</a> | <a href="events_list.php">View Full List</a> | <a href="events_add.php">Add New Event</a> | <a href="events_add_venue.php">Add Venue</a> | <a href="events_venues_list.php">Show All Venues</a> <hr />
 		

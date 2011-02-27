@@ -137,6 +137,10 @@ div.side {
 	border-color: #333;
 }
 
+li {
+	list-style: none;
+}
+
 li.schedule { 
 	list-style-image: url('../img/bullet.png');
 	line-height: 2em;
@@ -195,6 +199,30 @@ ul.links {
 	width: 100%;
 }
 
+/*Google Map Styles
+===================*/
+div#map_canvas {
+  position: relative;
+	border: 1px solid #333;
+}
+
+div#crosshair {
+  position: relative;
+  bottom: 212px;
+  height: 19px;
+  width: 19px;
+  left: 50%;
+  margin-left: -9px;
+  display: block;
+  background: url(../img/crosshair.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#latlng {
+	color:#878787;
+	font-style: italic;
+}
 
 /*Footer
 ===================*/

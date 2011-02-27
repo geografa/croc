@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>admin/events_edit.php</string>
+	<string>admin/gmap.js</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,28 +21,59 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>admin/events_edit.php</key>
+		<key>admin/events_add_venue.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>41</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>52</integer>
+				<integer>30</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>28</integer>
+			<integer>10</integer>
+		</dict>
+		<key>admin/gmap.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>27</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>37</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>admin/events_edit.php</string>
+		<string>admin/gmap.js</string>
+		<string>admin/events_add_venue.php</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{262, 128}, {1387, 900}}</string>
+	<string>{{210, 71}, {1470, 957}}</string>
 </dict>
 </plist>
