@@ -17,22 +17,25 @@ if (empty($submit)) { ?>
 			<div class="scheduleAdmin">
 				<div>
 					<h4>Search Venue</h4>				  
+						
+							
 						<a href="#" onMouseOver="updateLocation()">
 							<div id="map_canvas" style="width:100%; height:400px"></div> 	
 						</a>
 						
-				    <input type="text" size="50" id="address" />
+				    <input type="text" size="50" id="address" name="venue_address"/>
 						<input type="button" value="Search" onclick="geocode()" />
+						
+						<div id="crosshair"></div>
 
 						<div id="latlng"></div>
-						<div id="crosshair"></div>
-						<div id="formatedAddress"></div>
-						
 						<input type="hidden" name="latlong" />
+
+						<div id="formatedAddress"></div>					
 						
-						<h4>*Please provide a short name for the venue: <input type="text" size="50" name="venue_name"></h4>
+						<h4>*Please provide a short name for the venue: <input type="text" size="50" name="venue_name" /></h4>
 					</div>
-				<input type="Submit" value="Add Location" name="submit" /> 	
+				<input type="Submit" value="Add Location" name="submit"/> 	
 			</div>
 			<div>
 					<!-- <input type="Submit" name="submit" value="Add"> -->
@@ -49,11 +52,11 @@ if (empty($submit)) { ?>
 		// validate text input fields
 		// fetch values set when Add button is hit
 		$venue_name = $_POST[venue_name];
-		$formatedAddress = $_POST[formatedAddress];
+		$venue_address = $_POST[venue_address];
 		$latlong = $_POST[latlong];
 		
 		if (!$venue_name) { $errorList[$count] = "Invalid Entry: You need to supply a short name."; $count++; }
-		if (!$formatedAddress) { $errorList[$count] = "Invalid entry: Address"; $count++; }
+		if (!$venue_address) { $errorList[$count] = "Invalid entry: Venue Address"; $count++; }
 		if (!$latlong) { $errorList[$count] = "Invalid entry: LatLong"; $count++; }
 		// check for errors
 		// if none found...
@@ -62,8 +65,8 @@ if (empty($submit)) { ?>
 			
 		// generate and execute query
 		$query = "INSERT INTO venues
-		 					(venue_id, venue_name, address, latlong)
-							VALUES ( '$venue_id', '$venue_name', '$formatedAddress', '$latlong' )";
+		 					(venue_id, venue_name, venue_address, latlong)
+							VALUES ( '$venue_id', '$venue_name', '$venue_address', '$latlong' )";
 						
 		$result = mysql_query($query) or die ("Error in query: $query. " . mysql_error());
 		

@@ -32,13 +32,16 @@ function setupEvents() {
   });
 }
 
+function updateAddress() {
+	var newAddress = document.getElementById('formatedAddress').value;
+	
+  document.getElementById('address').innerHTML = newAddress;
+}
+
 function updateLocation() {
   var latlng = map.getCenter().lat() +', '+ map.getCenter().lng();
-  // var address = document.getElementById("address").value;
-
 	venueForm = document.forms['VenueForm'];
-	venueForm.elements["latlong"].value = latlng;	
-	// venueForm.elements["address"].value = formatedAddress;
+	venueForm.elements["latlong"].value = latlng;
 }
 
 function getCenterLatLngText() {
