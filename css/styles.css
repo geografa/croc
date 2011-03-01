@@ -196,7 +196,6 @@ ul.links {
 	margin: 0px;
 	border: 1px solid #999;
 	background-color: #DDD;
-	width: 100%;
 }
 
 /*Google Map Styles
@@ -220,6 +219,7 @@ div#crosshair {
 }
 
 #latlng {
+	font-size: .75em;
 	color:#878787;
 	font-style: italic;
 }

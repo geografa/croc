@@ -38,6 +38,7 @@
 				<!-- Twitter-->
 				<div id="tweet">
 					<img src="img/twitter-icon.png" width="32" height="32" alt="Twitter Icon"><img src="img/facebook-icon.gif" width="32" height="31" alt="Facebook Icon">
+					<a href="admin/index.php">Login</a>
 				</div>
 				<!--/Twitter-->
 			</div><!--/navback-->

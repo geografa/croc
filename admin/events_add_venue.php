@@ -12,30 +12,29 @@ $connection = mysql_connect($host, $user, $pass) or die ("Unable to connect!");
 mysql_select_db($db) or die ("Unable to select database!");
 
 if (empty($submit)) { ?>
-	<form action="<? echo $PHP_SELF; ?>" method="POST" name="VenueForm" >
-		<div class="grid_11">	
+	<form action="<? echo $PHP_SELF; ?>" method="POST" name="VenueForm">
+		<div class="grid_11">
 			<div class="scheduleAdmin">
-				<div>
-					<h4>Search Venue</h4>				  
-						
-							
+				<div>							
 						<a href="#" onMouseOver="updateLocation()">
 							<div id="map_canvas" style="width:100%; height:400px"></div> 	
 						</a>
-						
-				    <input type="text" size="50" id="address" name="venue_address"/>
-						<input type="button" value="Search" onclick="geocode()" />
-						
+
 						<div id="crosshair"></div>
-
-						<div id="latlng"></div>
-						<input type="hidden" name="latlong" />
-
-						<div id="formatedAddress"></div>					
 						
-						<h4>*Please provide a short name for the venue: <input type="text" size="50" name="venue_name" /></h4>
+				    <h4>Step 1. Type your venue's address: </h4><input type="text" size="60" id="address" tabindex="1" />
+						<input type="button" value="search" id="search" onclick="geocode()" tabindex="2" />
+
+						<div class="scheduleDate">Current coordinates: </div>
+						<div id="latlng"></div>						
+							<input type="hidden" name="latlong" />
+					 	<div id="formatedAddress"></div>
+						
+						<input type="hidden" name="venue_address" />
+
+						<h4>Step 2. Provide a short name for the venue: <a href="#" onchange="updateAddress()" ><input type="text" size="50" name="venue_name" id="venue_name" tabindex="3" /></a></h4>
 					</div>
-				<input type="Submit" value="Add Location" name="submit"/> 	
+				<input type="Submit" value="Add Location" id="submit" name="submit" tabindex="4" />
 			</div>
 			<div>
 					<!-- <input type="Submit" name="submit" value="Add"> -->

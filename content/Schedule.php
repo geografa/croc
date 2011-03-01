@@ -44,7 +44,7 @@ if (mysql_num_rows($result) > 0)
 	echo "Meet Director: ".$row->contact."<br />";
 	echo $row->descrip."<br />";
 	?>
-	<img id="cm-inset" src="http://staticmaps.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/staticmap?center=<?echo $row->latlong; ?>&zoom=11&size=800x300&format=png&styleid=997" alt="Map">
+	<img id="cm-inset" src="http://maps.google.com/maps/api/staticmap?center=<?echo $row->latlong; ?>&zoom=12&size=640x300&markers=icon:http://grafa.co/croc/img/CROC_smlogo.gif%7C<?echo $row->latlong; ?>&sensor=false" />
 	</p>
 </div>
 	<?php

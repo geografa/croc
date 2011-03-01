@@ -33,9 +33,9 @@ function setupEvents() {
 }
 
 function updateAddress() {
-	var newAddress = document.getElementById('formatedAddress').value;
-	
-  document.getElementById('address').innerHTML = newAddress;
+	var venue_address = document.getElementById('formatedAddress').innerHTML;
+	venueForm = document.forms['VenueForm'];
+	venueForm.elements["venue_address"].value = venue_address;
 }
 
 function updateLocation() {
